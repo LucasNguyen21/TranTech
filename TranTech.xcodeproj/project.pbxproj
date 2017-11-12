@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFF4BF771FB9024C00207036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4BF761FB9024C00207036 /* AppDelegate.swift */; };
+		CFF4BF791FB9024C00207036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4BF781FB9024C00207036 /* ViewController.swift */; };
+		CFF4BF7C1FB9024C00207036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF4BF7A1FB9024C00207036 /* Main.storyboard */; };
+		CFF4BF7F1FB9024C00207036 /* TranTech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFF4BF7D1FB9024C00207036 /* TranTech.xcdatamodeld */; };
+		CFF4BF811FB9024C00207036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF4BF801FB9024C00207036 /* Assets.xcassets */; };
+		CFF4BF841FB9024C00207036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF4BF821FB9024C00207036 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFF4BF731FB9024C00207036 /* TranTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF4BF761FB9024C00207036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFF4BF781FB9024C00207036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFF4BF7B1FB9024C00207036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFF4BF7E1FB9024C00207036 /* TranTech.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TranTech.xcdatamodel; sourceTree = "<group>"; };
+		CFF4BF801FB9024C00207036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF4BF831FB9024C00207036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFF4BF851FB9024C00207036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF4BF701FB9024C00207036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFF4BF6A1FB9024C00207036 = {
+			isa = PBXGroup;
+			children = (
+				CFF4BF751FB9024C00207036 /* TranTech */,
+				CFF4BF741FB9024C00207036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF4BF741FB9024C00207036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF4BF731FB9024C00207036 /* TranTech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF4BF751FB9024C00207036 /* TranTech */ = {
+			isa = PBXGroup;
+			children = (
+				CFF4BF761FB9024C00207036 /* AppDelegate.swift */,
+				CFF4BF781FB9024C00207036 /* ViewController.swift */,
+				CFF4BF7A1FB9024C00207036 /* Main.storyboard */,
+				CFF4BF801FB9024C00207036 /* Assets.xcassets */,
+				CFF4BF821FB9024C00207036 /* LaunchScreen.storyboard */,
+				CFF4BF851FB9024C00207036 /* Info.plist */,
+				CFF4BF7D1FB9024C00207036 /* TranTech.xcdatamodeld */,
+			);
+			path = TranTech;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF4BF721FB9024C00207036 /* TranTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF4BF881FB9024C00207036 /* Build configuration list for PBXNativeTarget "TranTech" */;
+			buildPhases = (
+				CFF4BF6F1FB9024C00207036 /* Sources */,
+				CFF4BF701FB9024C00207036 /* Frameworks */,
+				CFF4BF711FB9024C00207036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TranTech;
+			productName = TranTech;
+			productReference = CFF4BF731FB9024C00207036 /* TranTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF4BF6B1FB9024C00207036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nguyen Dinh Thang";
+				TargetAttributes = {
+					CFF4BF721FB9024C00207036 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FU3EWV6WF5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFF4BF6E1FB9024C00207036 /* Build configuration list for PBXProject "TranTech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF4BF6A1FB9024C00207036;
+			productRefGroup = CFF4BF741FB9024C00207036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF4BF721FB9024C00207036 /* TranTech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF4BF711FB9024C00207036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF4BF841FB9024C00207036 /* LaunchScreen.storyboard in Resources */,
+				CFF4BF811FB9024C00207036 /* Assets.xcassets in Resources */,
+				CFF4BF7C1FB9024C00207036 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF4BF6F1FB9024C00207036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF4BF7F1FB9024C00207036 /* TranTech.xcdatamodeld in Sources */,
+				CFF4BF791FB9024C00207036 /* ViewController.swift in Sources */,
+				CFF4BF771FB9024C00207036 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFF4BF7A1FB9024C00207036 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF4BF7B1FB9024C00207036 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF4BF821FB9024C00207036 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF4BF831FB9024C00207036 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFF4BF861FB9024C00207036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFF4BF871FB9024C00207036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF4BF891FB9024C00207036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FU3EWV6WF5;
+				INFOPLIST_FILE = TranTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranTech.TranTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFF4BF8A1FB9024C00207036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FU3EWV6WF5;
+				INFOPLIST_FILE = TranTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranTech.TranTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF4BF6E1FB9024C00207036 /* Build configuration list for PBXProject "TranTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF4BF861FB9024C00207036 /* Debug */,
+				CFF4BF871FB9024C00207036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF4BF881FB9024C00207036 /* Build configuration list for PBXNativeTarget "TranTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF4BF891FB9024C00207036 /* Debug */,
+				CFF4BF8A1FB9024C00207036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFF4BF7D1FB9024C00207036 /* TranTech.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFF4BF7E1FB9024C00207036 /* TranTech.xcdatamodel */,
+			);
+			currentVersion = CFF4BF7E1FB9024C00207036 /* TranTech.xcdatamodel */;
+			path = TranTech.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFF4BF6B1FB9024C00207036 /* Project object */;
+}
