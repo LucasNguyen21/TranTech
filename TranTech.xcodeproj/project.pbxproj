@@ -7,23 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D45AE1EDB338B09E68930CC /* Pods_TranTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771B9EE0B663871AA3247108 /* Pods_TranTech.framework */; };
+		CF00CD102023CF0A00084A99 /* CheckoutConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF00CD0F2023CF0A00084A99 /* CheckoutConfirmViewController.swift */; };
+		CF00CD122024106C00084A99 /* CustomObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF00CD112024106C00084A99 /* CustomObjects.swift */; };
+		CF34FFA41FBA581800606204 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34FFA31FBA581800606204 /* CategoryCell.swift */; };
+		CF34FFA61FBA636B00606204 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34FFA51FBA636B00606204 /* CategoryTableViewController.swift */; };
+		CF34FFAA1FBA7BA900606204 /* ProductCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34FFA91FBA7BA900606204 /* ProductCollectionViewController.swift */; };
+		CF34FFAE1FBA7E3D00606204 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34FFAD1FBA7E3D00606204 /* ProductCollectionViewCell.swift */; };
+		CF3AE09C1FC27EB900525F3F /* FHDANALOGTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3AE09B1FC27EB900525F3F /* FHDANALOGTableViewController.swift */; };
+		CF3EEAC1203B897200172E77 /* HardDriverAddOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EEAC0203B897200172E77 /* HardDriverAddOnViewController.swift */; };
+		CF5768A21FDF724300ABB822 /* TransactionHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5768A11FDF724300ABB822 /* TransactionHistoryViewController.swift */; };
+		CF5768A41FDF735C00ABB822 /* TransactionHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5768A31FDF735C00ABB822 /* TransactionHistoryCell.swift */; };
+		CF5768A61FDF763800ABB822 /* TransactionHistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5768A51FDF763800ABB822 /* TransactionHistoryDetailViewController.swift */; };
+		CF57D8B71FBBAEA5005BA37C /* ProductTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57D8B61FBBAEA5005BA37C /* ProductTypeViewController.swift */; };
+		CF57D8BF1FBBCC70005BA37C /* TypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57D8BE1FBBCC70005BA37C /* TypeCell.swift */; };
+		CF5D29981FCE1A980093564D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5D29971FCE1A750093564D /* WebKit.framework */; };
+		CF5DE1301FC38E0A00A66EAF /* IPNetworkSystemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5DE12F1FC38E0A00A66EAF /* IPNetworkSystemTableViewController.swift */; };
+		CF6973EB202C56BF00110448 /* ProductHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6973EA202C56BF00110448 /* ProductHeaderCollectionReusableView.swift */; };
+		CF7197981FCD89DF00F66A85 /* PromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7197971FCD89DF00F66A85 /* PromotionViewController.swift */; };
+		CFA657C31FD62F6A009D2F5B /* RegisterPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA657C21FD62F6A009D2F5B /* RegisterPopViewController.swift */; };
+		CFACAEE82047C5D6005D6B08 /* Double+CleanValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFACAEE72047C5D6005D6B08 /* Double+CleanValue.swift */; };
+		CFCEDEFA1FBE43B200B97496 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCEDEF91FBE43B200B97496 /* Utils.swift */; };
+		CFCEDEFC1FBE6AA000B97496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCEDEFB1FBE6A9F00B97496 /* Assets.xcassets */; };
+		CFCEDEFE1FBEAD3900B97496 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCEDEFD1FBEAD3900B97496 /* DetailsViewController.swift */; };
+		CFDF0EF0203A4EBC002ECCBA /* UpdateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF0EEF203A4EBC002ECCBA /* UpdateAccountViewController.swift */; };
+		CFDF0EF2203A7472002ECCBA /* UpdateCartRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF0EF1203A7471002ECCBA /* UpdateCartRecordViewController.swift */; };
+		CFE584BF2050CC510078322F /* OrderList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE584BD2050CC510078322F /* OrderList+CoreDataClass.swift */; };
+		CFE584C02050CC510078322F /* OrderList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE584BE2050CC510078322F /* OrderList+CoreDataProperties.swift */; };
+		CFE584C220522CCB0078322F /* TabbarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE584C120522CCB0078322F /* TabbarControllerViewController.swift */; };
+		CFE584CD205242110078322F /* UserInfor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE584CB205242110078322F /* UserInfor+CoreDataClass.swift */; };
+		CFE584CE205242110078322F /* UserInfor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE584CC205242110078322F /* UserInfor+CoreDataProperties.swift */; };
+		CFEB8A872043DB1C00D8828A /* AlarmConfigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB8A862043DB1C00D8828A /* AlarmConfigureViewController.swift */; };
+		CFEB8A892044132300D8828A /* SirenChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB8A882044132300D8828A /* SirenChoiceViewController.swift */; };
+		CFEB8A8B2044305D00D8828A /* KeypadChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB8A8A2044305D00D8828A /* KeypadChoiceViewController.swift */; };
+		CFEB8A8D2044307400D8828A /* PIRChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB8A8C2044307400D8828A /* PIRChoiceViewController.swift */; };
+		CFF274081FD4C6DE005BAFC5 /* LoginTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF274071FD4C6DE005BAFC5 /* LoginTabViewController.swift */; };
 		CFF4BF771FB9024C00207036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4BF761FB9024C00207036 /* AppDelegate.swift */; };
-		CFF4BF791FB9024C00207036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4BF781FB9024C00207036 /* ViewController.swift */; };
 		CFF4BF7C1FB9024C00207036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF4BF7A1FB9024C00207036 /* Main.storyboard */; };
 		CFF4BF7F1FB9024C00207036 /* TranTech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFF4BF7D1FB9024C00207036 /* TranTech.xcdatamodeld */; };
-		CFF4BF811FB9024C00207036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF4BF801FB9024C00207036 /* Assets.xcassets */; };
 		CFF4BF841FB9024C00207036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF4BF821FB9024C00207036 /* LaunchScreen.storyboard */; };
+		CFF78FE91FE789F40025B390 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF78FE81FE789F40025B390 /* ForgotPasswordViewController.swift */; };
+		CFFD75501FE8940E00586475 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFFD754F1FE8940E00586475 /* GoogleService-Info.plist */; };
+		CFFFC1161FDA0137007A89E5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFC1151FDA0137007A89E5 /* CartViewController.swift */; };
+		CFFFC1181FDA1451007A89E5 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFC1171FDA1451007A89E5 /* OrderTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20AE7A22DF32FDE7B25B2EB0 /* Pods-TranTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranTech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TranTech/Pods-TranTech.debug.xcconfig"; sourceTree = "<group>"; };
+		771B9EE0B663871AA3247108 /* Pods_TranTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TranTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1406CBE56EB126297EC994 /* Pods-TranTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranTech.release.xcconfig"; path = "Pods/Target Support Files/Pods-TranTech/Pods-TranTech.release.xcconfig"; sourceTree = "<group>"; };
+		CF00CD0F2023CF0A00084A99 /* CheckoutConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutConfirmViewController.swift; sourceTree = "<group>"; };
+		CF00CD112024106C00084A99 /* CustomObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomObjects.swift; sourceTree = "<group>"; };
+		CF34FFA31FBA581800606204 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		CF34FFA51FBA636B00606204 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		CF34FFA91FBA7BA900606204 /* ProductCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewController.swift; sourceTree = "<group>"; };
+		CF34FFAD1FBA7E3D00606204 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF3AE09B1FC27EB900525F3F /* FHDANALOGTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDANALOGTableViewController.swift; sourceTree = "<group>"; };
+		CF3EEAC0203B897200172E77 /* HardDriverAddOnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardDriverAddOnViewController.swift; sourceTree = "<group>"; };
+		CF5768A11FDF724300ABB822 /* TransactionHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryViewController.swift; sourceTree = "<group>"; };
+		CF5768A31FDF735C00ABB822 /* TransactionHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryCell.swift; sourceTree = "<group>"; };
+		CF5768A51FDF763800ABB822 /* TransactionHistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryDetailViewController.swift; sourceTree = "<group>"; };
+		CF57D8B61FBBAEA5005BA37C /* ProductTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTypeViewController.swift; sourceTree = "<group>"; };
+		CF57D8BE1FBBCC70005BA37C /* TypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeCell.swift; sourceTree = "<group>"; };
+		CF5D29961FCE174C0093564D /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		CF5D29971FCE1A750093564D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CF5DE12F1FC38E0A00A66EAF /* IPNetworkSystemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPNetworkSystemTableViewController.swift; sourceTree = "<group>"; };
+		CF6973EA202C56BF00110448 /* ProductHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		CF7197971FCD89DF00F66A85 /* PromotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionViewController.swift; sourceTree = "<group>"; };
+		CF71979A1FCD917E00F66A85 /* openssl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = openssl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA657C21FD62F6A009D2F5B /* RegisterPopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPopViewController.swift; sourceTree = "<group>"; };
+		CFACAEE72047C5D6005D6B08 /* Double+CleanValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+CleanValue.swift"; sourceTree = "<group>"; };
+		CFB1209B1FB90A78000FF610 /* TranTech.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TranTech.entitlements; sourceTree = "<group>"; };
+		CFCEDEF91FBE43B200B97496 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CFCEDEFB1FBE6A9F00B97496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFCEDEFD1FBEAD3900B97496 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CFDF0EEF203A4EBC002ECCBA /* UpdateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAccountViewController.swift; sourceTree = "<group>"; };
+		CFDF0EF1203A7471002ECCBA /* UpdateCartRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCartRecordViewController.swift; sourceTree = "<group>"; };
+		CFE584BD2050CC510078322F /* OrderList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CFE584BE2050CC510078322F /* OrderList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CFE584C120522CCB0078322F /* TabbarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarControllerViewController.swift; sourceTree = "<group>"; };
+		CFE584CB205242110078322F /* UserInfor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserInfor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CFE584CC205242110078322F /* UserInfor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserInfor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CFEB8A862043DB1C00D8828A /* AlarmConfigureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmConfigureViewController.swift; sourceTree = "<group>"; };
+		CFEB8A882044132300D8828A /* SirenChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirenChoiceViewController.swift; sourceTree = "<group>"; };
+		CFEB8A8A2044305D00D8828A /* KeypadChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadChoiceViewController.swift; sourceTree = "<group>"; };
+		CFEB8A8C2044307400D8828A /* PIRChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIRChoiceViewController.swift; sourceTree = "<group>"; };
+		CFF274071FD4C6DE005BAFC5 /* LoginTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTabViewController.swift; sourceTree = "<group>"; };
 		CFF4BF731FB9024C00207036 /* TranTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF4BF761FB9024C00207036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFF4BF781FB9024C00207036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFF4BF7B1FB9024C00207036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFF4BF7E1FB9024C00207036 /* TranTech.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TranTech.xcdatamodel; sourceTree = "<group>"; };
-		CFF4BF801FB9024C00207036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFF4BF831FB9024C00207036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFF4BF851FB9024C00207036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF78FE81FE789F40025B390 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		CFFCBC391FE332C10099923C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFD754F1FE8940E00586475 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFFFC1151FDA0137007A89E5 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		CFFFC1171FDA1451007A89E5 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +111,131 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5D29981FCE1A980093564D /* WebKit.framework in Frameworks */,
+				0D45AE1EDB338B09E68930CC /* Pods_TranTech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5807B02E282480F3164639A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20AE7A22DF32FDE7B25B2EB0 /* Pods-TranTech.debug.xcconfig */,
+				7D1406CBE56EB126297EC994 /* Pods-TranTech.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A56CAFE454C1EEDB216013A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCBC391FE332C10099923C /* Alamofire.framework */,
+				CF5D29971FCE1A750093564D /* WebKit.framework */,
+				CF5D29961FCE174C0093564D /* PDFKit.framework */,
+				CF71979A1FCD917E00F66A85 /* openssl.framework */,
+				771B9EE0B663871AA3247108 /* Pods_TranTech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF34FFAB1FBA7E0500606204 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFFFC1171FDA1451007A89E5 /* OrderTableViewCell.swift */,
+				CF34FFA31FBA581800606204 /* CategoryCell.swift */,
+				CF34FFAD1FBA7E3D00606204 /* ProductCollectionViewCell.swift */,
+				CF57D8BE1FBBCC70005BA37C /* TypeCell.swift */,
+				CFCEDEF91FBE43B200B97496 /* Utils.swift */,
+				CF5768A31FDF735C00ABB822 /* TransactionHistoryCell.swift */,
+				CF00CD112024106C00084A99 /* CustomObjects.swift */,
+				CF6973EA202C56BF00110448 /* ProductHeaderCollectionReusableView.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CF34FFAC1FBA7E1100606204 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CFACAEE62047C536005D6B08 /* Extension */,
+				CFDD2C2C203CE9FB003EC96B /* Cart */,
+				CFDD2C2B203CE9ED003EC96B /* Account */,
+				CFDD2C2A203CE9E3003EC96B /* Home */,
+				CFE584C120522CCB0078322F /* TabbarControllerViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CF3AE09A1FC27E9300525F3F /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				CF34FFA51FBA636B00606204 /* CategoryTableViewController.swift */,
+				CF3AE09B1FC27EB900525F3F /* FHDANALOGTableViewController.swift */,
+				CF5DE12F1FC38E0A00A66EAF /* IPNetworkSystemTableViewController.swift */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		CFACAEE62047C536005D6B08 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CFACAEE72047C5D6005D6B08 /* Double+CleanValue.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		CFDD2C2A203CE9E3003EC96B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CF7197971FCD89DF00F66A85 /* PromotionViewController.swift */,
+				CF57D8B61FBBAEA5005BA37C /* ProductTypeViewController.swift */,
+				CF34FFA91FBA7BA900606204 /* ProductCollectionViewController.swift */,
+				CFCEDEFD1FBEAD3900B97496 /* DetailsViewController.swift */,
+				CF3EEAC0203B897200172E77 /* HardDriverAddOnViewController.swift */,
+				CFEB8A862043DB1C00D8828A /* AlarmConfigureViewController.swift */,
+				CFEB8A882044132300D8828A /* SirenChoiceViewController.swift */,
+				CFEB8A8A2044305D00D8828A /* KeypadChoiceViewController.swift */,
+				CFEB8A8C2044307400D8828A /* PIRChoiceViewController.swift */,
+				CF3AE09A1FC27E9300525F3F /* TableView */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		CFDD2C2B203CE9ED003EC96B /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				CFF274071FD4C6DE005BAFC5 /* LoginTabViewController.swift */,
+				CFA657C21FD62F6A009D2F5B /* RegisterPopViewController.swift */,
+				CF5768A11FDF724300ABB822 /* TransactionHistoryViewController.swift */,
+				CF5768A51FDF763800ABB822 /* TransactionHistoryDetailViewController.swift */,
+				CFF78FE81FE789F40025B390 /* ForgotPasswordViewController.swift */,
+				CFDF0EEF203A4EBC002ECCBA /* UpdateAccountViewController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		CFDD2C2C203CE9FB003EC96B /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				CFFFC1151FDA0137007A89E5 /* CartViewController.swift */,
+				CF00CD0F2023CF0A00084A99 /* CheckoutConfirmViewController.swift */,
+				CFDF0EF1203A7471002ECCBA /* UpdateCartRecordViewController.swift */,
+			);
+			name = Cart;
+			sourceTree = "<group>";
+		};
 		CFF4BF6A1FB9024C00207036 = {
 			isa = PBXGroup;
 			children = (
+				CFE584CB205242110078322F /* UserInfor+CoreDataClass.swift */,
+				CFE584CC205242110078322F /* UserInfor+CoreDataProperties.swift */,
+				CFE584BD2050CC510078322F /* OrderList+CoreDataClass.swift */,
+				CFE584BE2050CC510078322F /* OrderList+CoreDataProperties.swift */,
 				CFF4BF751FB9024C00207036 /* TranTech */,
 				CFF4BF741FB9024C00207036 /* Products */,
+				5807B02E282480F3164639A1 /* Pods */,
+				8A56CAFE454C1EEDB216013A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +250,15 @@
 		CFF4BF751FB9024C00207036 /* TranTech */ = {
 			isa = PBXGroup;
 			children = (
+				CFB1209B1FB90A78000FF610 /* TranTech.entitlements */,
 				CFF4BF761FB9024C00207036 /* AppDelegate.swift */,
-				CFF4BF781FB9024C00207036 /* ViewController.swift */,
+				CF34FFAC1FBA7E1100606204 /* ViewController */,
+				CF34FFAB1FBA7E0500606204 /* Model */,
 				CFF4BF7A1FB9024C00207036 /* Main.storyboard */,
-				CFF4BF801FB9024C00207036 /* Assets.xcassets */,
+				CFCEDEFB1FBE6A9F00B97496 /* Assets.xcassets */,
 				CFF4BF821FB9024C00207036 /* LaunchScreen.storyboard */,
 				CFF4BF851FB9024C00207036 /* Info.plist */,
+				CFFD754F1FE8940E00586475 /* GoogleService-Info.plist */,
 				CFF4BF7D1FB9024C00207036 /* TranTech.xcdatamodeld */,
 			);
 			path = TranTech;
@@ -74,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFF4BF881FB9024C00207036 /* Build configuration list for PBXNativeTarget "TranTech" */;
 			buildPhases = (
+				BF73697721AD6B550EACF0E4 /* [CP] Check Pods Manifest.lock */,
 				CFF4BF6F1FB9024C00207036 /* Sources */,
 				CFF4BF701FB9024C00207036 /* Frameworks */,
 				CFF4BF711FB9024C00207036 /* Resources */,
+				15EFF63810970526C2B34B8B /* [CP] Embed Pods Frameworks */,
+				FF8935A68D0E4BB00D919534 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -101,6 +301,17 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = FU3EWV6WF5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -128,21 +339,138 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF4BF841FB9024C00207036 /* LaunchScreen.storyboard in Resources */,
-				CFF4BF811FB9024C00207036 /* Assets.xcassets in Resources */,
+				CFFD75501FE8940E00586475 /* GoogleService-Info.plist in Resources */,
+				CFCEDEFC1FBE6AA000B97496 /* Assets.xcassets in Resources */,
 				CFF4BF7C1FB9024C00207036 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15EFF63810970526C2B34B8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TranTech/Pods-TranTech-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CoreStore/CoreStore.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TranTech/Pods-TranTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF73697721AD6B550EACF0E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TranTech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF8935A68D0E4BB00D919534 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TranTech/Pods-TranTech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFF4BF6F1FB9024C00207036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF57D8B71FBBAEA5005BA37C /* ProductTypeViewController.swift in Sources */,
+				CFE584CD205242110078322F /* UserInfor+CoreDataClass.swift in Sources */,
+				CFF78FE91FE789F40025B390 /* ForgotPasswordViewController.swift in Sources */,
+				CFEB8A8B2044305D00D8828A /* KeypadChoiceViewController.swift in Sources */,
+				CFE584C220522CCB0078322F /* TabbarControllerViewController.swift in Sources */,
+				CF00CD102023CF0A00084A99 /* CheckoutConfirmViewController.swift in Sources */,
+				CFA657C31FD62F6A009D2F5B /* RegisterPopViewController.swift in Sources */,
+				CF34FFA61FBA636B00606204 /* CategoryTableViewController.swift in Sources */,
+				CF5768A41FDF735C00ABB822 /* TransactionHistoryCell.swift in Sources */,
 				CFF4BF7F1FB9024C00207036 /* TranTech.xcdatamodeld in Sources */,
-				CFF4BF791FB9024C00207036 /* ViewController.swift in Sources */,
+				CF57D8BF1FBBCC70005BA37C /* TypeCell.swift in Sources */,
+				CFFFC1181FDA1451007A89E5 /* OrderTableViewCell.swift in Sources */,
+				CFCEDEFA1FBE43B200B97496 /* Utils.swift in Sources */,
+				CF5768A61FDF763800ABB822 /* TransactionHistoryDetailViewController.swift in Sources */,
+				CFE584C02050CC510078322F /* OrderList+CoreDataProperties.swift in Sources */,
+				CFEB8A8D2044307400D8828A /* PIRChoiceViewController.swift in Sources */,
+				CF00CD122024106C00084A99 /* CustomObjects.swift in Sources */,
+				CF34FFAA1FBA7BA900606204 /* ProductCollectionViewController.swift in Sources */,
 				CFF4BF771FB9024C00207036 /* AppDelegate.swift in Sources */,
+				CFFFC1161FDA0137007A89E5 /* CartViewController.swift in Sources */,
+				CFF274081FD4C6DE005BAFC5 /* LoginTabViewController.swift in Sources */,
+				CFCEDEFE1FBEAD3900B97496 /* DetailsViewController.swift in Sources */,
+				CF3EEAC1203B897200172E77 /* HardDriverAddOnViewController.swift in Sources */,
+				CF6973EB202C56BF00110448 /* ProductHeaderCollectionReusableView.swift in Sources */,
+				CFE584BF2050CC510078322F /* OrderList+CoreDataClass.swift in Sources */,
+				CFEB8A872043DB1C00D8828A /* AlarmConfigureViewController.swift in Sources */,
+				CFDF0EF0203A4EBC002ECCBA /* UpdateAccountViewController.swift in Sources */,
+				CF34FFAE1FBA7E3D00606204 /* ProductCollectionViewCell.swift in Sources */,
+				CFACAEE82047C5D6005D6B08 /* Double+CleanValue.swift in Sources */,
+				CFE584CE205242110078322F /* UserInfor+CoreDataProperties.swift in Sources */,
+				CF3AE09C1FC27EB900525F3F /* FHDANALOGTableViewController.swift in Sources */,
+				CF34FFA41FBA581800606204 /* CategoryCell.swift in Sources */,
+				CF7197981FCD89DF00F66A85 /* PromotionViewController.swift in Sources */,
+				CFDF0EF2203A7472002ECCBA /* UpdateCartRecordViewController.swift in Sources */,
+				CF5768A21FDF724300ABB822 /* TransactionHistoryViewController.swift in Sources */,
+				CF5DE1301FC38E0A00A66EAF /* IPNetworkSystemTableViewController.swift in Sources */,
+				CFEB8A892044132300D8828A /* SirenChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,12 +537,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -253,20 +582,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		CFF4BF891FB9024C00207036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AE7A22DF32FDE7B25B2EB0 /* Pods-TranTech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TranTech/TranTech.entitlements;
 				DEVELOPMENT_TEAM = FU3EWV6WF5;
 				INFOPLIST_FILE = TranTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TranTech.TranTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,10 +609,13 @@
 		};
 		CFF4BF8A1FB9024C00207036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1406CBE56EB126297EC994 /* Pods-TranTech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TranTech/TranTech.entitlements;
 				DEVELOPMENT_TEAM = FU3EWV6WF5;
 				INFOPLIST_FILE = TranTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TranTech.TranTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +642,7 @@
 				CFF4BF8A1FB9024C00207036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
